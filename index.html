@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise #6 Josua Limbu</title>
+</head>
+<body>
+    <!--Dipisahin menggunakan Section biar tidak berantakan jadi tidak pusing-->
+    <fieldset>
+    <legend>Formulir Calon Pegawai</legend>
+    <section class="nama">
+        <label for="nama">Nama :</label>
+        <input type="text" name="nama" pattern="[a-zA-Z]+">
+    </section>
+    <br>
+    <section class="alamat">
+        <label for="alamat">Alamat :</label>
+        <input type="text" name="alamat">
+    </section>
+    <br>
+    <section class="psw">
+        <label for="pwd">Password :</label>
+        <input type="password" name="psw">
+    </section>
+    <br>
+    <section class="jenis kelamin">
+        <span>Jenis Kelamin : </span>
+        <input type="radio" name="jenis kelamin" id="Laki - Laki" value="Laki - Laki" >
+        <label for="Laki - Laki">Laki - Laki</label>
+        <input type="radio" name="jenis kelamin" id="Perempuan" value="Perempuan" >
+        <label for="Perempuan">Perempuan</label>
+
+    </section>
+    <br>
+    <section class="talent">
+        <span>Bahasa Pemograman Yang Dikuasai : </span>
+        <input type="checkbox" name="talent" id="web" value="web" >
+        <label for="web">Web</label>
+        <input type="checkbox" name="talent" id="mobile" value="mobile" >
+        <label for="mobile">MOBILE</label>
+        <input type="checkbox" name="talent" id="desktop" value="desktop" >
+        <label for="desktop">DESKTOP</label>
+    </section>
+    <br>
+    <section class="kota">
+        <label for="kota">Kota Asal : </label>
+        <select name="kota" id="kota">
+            <option value="aceh">Banda Aceh</option>
+            <option value="Bandung">Bandung</option>
+            <option value="banyuwangi">Banyuwangi</option>
+            <option value="batam">Batam</option>
+            <option value="Bekasi">Bekasi</option>
+            <option value="binjai">Binjai</option>
+            <option value="bireuen">Bireuen</option>
+            <option value="Bogor">Bogor</option>
+            <option value="bukittinggi">Bukittinggi</option>
+            <option value="Denpasar">Denpasar</option>
+            <option value="Gorontalo">Gorontalo</option>
+            <option value="Jakarta">Jakarta</option>
+            <option value="jambi">Jambi</option>
+            <option value="Kupang">Kupang</option>
+            <option value="Makassar">Makassar</option>
+            <option value="Maluku">Maluku</option>
+            <option value="Manado">Manado</option>
+            <option value="medan">Medan</option>
+            <option value="Merauke ">Merauke</option>
+            <option value="nias">Nias</option>
+            <option value="padang">Padang</option>
+            <option value="padangpanjang">Padang Panjang</option>
+            <option value="padangsidempuan">Padangsidempuan</option>
+            <option value="Palu">Palu</option>
+            <option value="pekanbaru">Pekanbaru</option>
+            <option value="pematangsiantar">Pematangsiantar</option>
+            <option value="sabang">Sabang</option>
+            <option value="samosir">Samosir</option>
+            <option value="Semarang">Semarang</option>
+            <option value="Surabaya">Surabaya</option>
+            <option value="Yogyakarta">Yogyakarta</option>
+            <option value="Other">Other</option>
+        </select>
+    </section>
+    <br>
+    <section class="text area">
+        <label for="text box">Apa yang Membuat Kami harus memilih Anda? :</label>
+        <br>
+        <textarea name="text area" id="" cols="60" rows="10">Tulis jawaban Anda di sini...</textarea>
+
+    </section>
+    <br>
+    <section>
+        <button>Proses</button>
+    </section>
+</fieldset>
+    
+
+</body>
+</html>
